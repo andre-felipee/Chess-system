@@ -1,4 +1,4 @@
-package boardgame;
+package boardlayer;
 
 public class Position {
     
@@ -28,6 +28,6 @@ public class Position {
 
     @Override
     public String toString() {
-        return "Row: " + row + "\n" + "Column: column";
+        return "Row: " + row + " | " + "Column: " + column;
     }
 }
