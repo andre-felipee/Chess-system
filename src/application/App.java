@@ -1,7 +1,11 @@
 package application;
 
+import chesslayer.ChessMatch;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+        ChessMatch chessMatch = new ChessMatch();
+        UserInterface.printBoard(chessMatch.getPieces()); 
     }
 }
